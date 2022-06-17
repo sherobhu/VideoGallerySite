@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+}
+.container{
+    width: 60%;
+    /* height: 550px; */
+    padding: 30px 0;
+    background-color: white;
+    border-radius: 10px;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+}
+.main-video-container{
+    width: 65%;
+    background-color: white;
+    margin-right: 10px;
+}
+.main-video-container video{
+    width: 100%;
+}
+
+.top{
+    width: 100%;
+    padding-left: 30px;
+    /* background-color: khaki; */
+    height:10%;
+    justify-content: space-between;
+}
+.top i{
+    font-size: 20px;
+    opacity: 0.8;
+}
+.top img{
+    width: 100px;
+}
+.top .input-div{
+    width: 70%;
+}
+.top input{
+    width: 70%;
+    height: 30px;
+    padding: 0 10px;
+    outline: none; 
+    border: 1px solid rgba(0, 0, 0, 0.372);
+}
+.top .fa-magnifying-glass{
+    position: relative;
+    left: -30px;
+    font-size: 17px;
+}
+.video-list-container{
+    width: 28%;
+    height: 400px;
+    overflow-y: scroll;
+    /* background-color: yellow; */
+}
+.video-list-container .list{
+    width: 100%;
+    height: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.47);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    /* justify-content: center; */
+}
+.list video{
+    height: 100%;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
+.div{
+    margin-top: 20px;
+    
+}
+.list h3{
+    font-size: 15px;
+    display: inline;
+}
+.content{
+    justify-content: flex-start;
+    padding: 10px 10px;
+}
+.logo{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: red;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+button{
+    background-color: red;
+    border: none;
+    padding: 6px 0;
+    border-radius: 3px;
+    font-size: 17px;
+    color: white;
+    width: 20%;
+}
+button i{
+    padding-left: 10px;
+    color: white;
+    opacity: 1 !important;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+.main-video-container div i{
+    padding: 3px;
+    opacity: 0.8;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.main-video-container div i span{
+    font-size: 12px;
+    font-family: sans-serif;
+    padding-left: 2px;
+    color: black;
+    opacity: 1;
+}
+h3{
+    text-align: left;
+    padding-left: 5px;
+    /* background-color: yellowgreen; */
+    width: 55%;
+}
+.extra{
+    width: 27%;
+    /* background-color: orange    ; */
+}
+.extra .fa-thumbs-up:hover{
+    color: red;
+}
+.extra .fa-share:hover{
+    color: rgb(26, 180, 222);
+}
